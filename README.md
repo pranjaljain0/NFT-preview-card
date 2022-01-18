@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [nftcard.pranjaljain.me](https://nftcard.pranjaljain.me/)
+- Solution URL: [nftcard-pranjaljain.vercel.app](https://nftcard-pranjaljain.vercel.app/)
 
 ## My process
 
