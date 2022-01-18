@@ -1,0 +1,137 @@
+body {
+	background-color: hsl(217, 54%, 11%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	font-family: 'Outfit', sans-serif;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+.card {
+	background-color: hsl(216, 50%, 16%);
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	border-radius: 8px;
+	color: #fff;
+}
+.cardContainer {
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+	max-width: 350px;
+}
+.cardContainer .posterImage {
+	width: 100%;
+	height: 100%;
+}
+.posterImageContainer {
+	border-radius: 8px;
+	overflow: hidden;
+}
+.posterImageContainer {
+	position: relative;
+	cursor: pointer;
+}
+.posterImageContainer:hover .eyeIconbg {
+	opacity: 1;
+}
+.eyeIconbg {
+	transition: all 0.2s ease-in;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: rgba(0, 255, 247, 0.5);
+}
+.eyeIcon {
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.posterImage {
+}
+.cardContainer h2 {
+	margin: 10px 0;
+	padding: 0;
+	transition: all 0.2s ease-in;
+}
+.cardContainer h2:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+.cardContainer p {
+	color: hsl(215, 51%, 70%);
+	font-weight: 300;
+}
+.cardContainer p,
+.cardContainer span {
+	margin: 0;
+	padding: 0;
+}
+.infoContainer {
+	color: hsl(215, 51%, 70%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 6px 0;
+}
+.infoContainer span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 8px 0;
+}
+.infoContainer span:first-child {
+	color: hsl(178, 100%, 50%);
+}
+.infoContainer span img {
+	height: 20px;
+	margin-right: 10px;
+	height: auto;
+}
+.rule {
+	border: 1px solid hsl(215, 32%, 27%);
+	width: 100%;
+}
+.cardContainer .AvatarInfo {
+	display: flex;
+	max-height: 100px;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 10px;
+}
+.AvatarInfo img {
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+	border-radius: 50% 50%;
+	border: 1px solid #fff;
+}
+.AvatarInfo p span {
+	color: #fff;
+	transition: all 0.2s ease-in;
+	cursor: pointer;
+}
+.AvatarInfo p span:hover {
+	color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+	margin-top: 30px;
+	font-size: 11px;
+	text-align: center;
+	color: #fff;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
